@@ -10,6 +10,7 @@ import { ContentComponent } from './content/content.component';
 import { ContentRightComponent } from './content-right/content-right.component';
 import { ContentLeftComponent } from './content-left/content-left.component';
 import { ContentCenterComponent } from './content-center/content-center.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContentCenterComponent } from './content-center/content-center.componen
     ContentComponent,
     ContentRightComponent,
     ContentLeftComponent,
-    ContentCenterComponent
+    ContentCenterComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
